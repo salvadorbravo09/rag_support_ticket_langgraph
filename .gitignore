@@ -1,2 +1,39 @@
 venv/
 .env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ChromaDB (base de datos vectorial generada, no debe subirse)
+chroma_db/
+
+# Google credentials
+*credentials*.json
+service_account*.json
+*service-account*.json
+
+# Tests & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
